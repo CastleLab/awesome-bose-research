@@ -5,9 +5,10 @@
   "repository": "https://github.com/CastleLab/awesome-bose-research",
   "author": "Wuqi Aaron Zhang <troublor@live.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
-    "library2json": "ts-node scripts/library2json.ts"
+    "library2json": "ts-node scripts/library2json.ts",
+    "build": "scripts/build.sh",
+    "serve": "http-server docs"
   },
   "devDependencies": {
     "@types/eslint": "^7",
@@ -19,6 +20,7 @@
     "typescript": "^4.3.2"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "paper-list": "^1.0.3"
   }
 }
